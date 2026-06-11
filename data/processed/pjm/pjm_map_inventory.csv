@@ -1,0 +1,3 @@
+raw_file,processed_use,machine_readable_text,processed_file
+data/raw/pjm-zones.pdf,zone_reference_legend,1,data/processed/pjm/pjm_zone_reference.csv
+data/raw/PJM Locational Marginal Pricing Map.png,visual_reference_only,0,

@@ -1,0 +1,13 @@
+metric,value
+all_data_center_points,1550
+points_in_analysis_states,1177
+points_with_service_polygon,1549
+usable_points_matched_to_eia_state_utility,1158
+points_with_multiple_service_polygon_matches,828
+panel_rows,9136
+panel_units,885
+panel_states,22
+single_state_service_area_panel_rows,5098
+single_state_service_area_units,404
+panel_min_year,2010
+panel_max_year,2024

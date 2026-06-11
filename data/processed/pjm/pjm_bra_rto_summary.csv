@@ -1,0 +1,8 @@
+delivery_year,auction_type,source_file,rto_price,cleared_ucap_mw,total_reserve_margin_pct,total_cost_to_load_billion
+2020/2021,Base Residual Auction,data/raw/pjm/2020-2021-base-residual-auction-report.pdf,76.53,165109.2,23.3,
+2021/2022,Base Residual Auction,data/raw/pjm/2021-2022-base-residual-auction-report.pdf,140.0,163627.3,21.5,
+2022/2023,Base Residual Auction,data/raw/pjm/2022-2023-base-residual-auction-report.pdf,50.0,144477.3,19.9,
+2023/2024,Base Residual Auction,data/raw/pjm/2023-2024-base-residual-auction-report.pdf,34.13,144870.6,20.3,
+2024/2025,Base Residual Auction,data/raw/pjm/2024-2025-base-residual-auction-report.pdf,28.92,147478.9,20.4,2.2
+2025/2026,Base Residual Auction,data/raw/pjm/2025-2026-base-residual-auction-report.pdf,269.92,135684.0,18.5,14.7
+2026/2027,Base Residual Auction,data/raw/pjm/2026-2027-bra-report.pdf,329.17,134205.3,18.9,16.1

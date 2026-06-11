@@ -1,0 +1,8 @@
+delivery_year,source_file,text_chars,contains_delivery_year
+2020/2021,data/raw/pjm/2020-2021-base-residual-auction-report.pdf,49770,1
+2021/2022,data/raw/pjm/2021-2022-base-residual-auction-report.pdf,55837,1
+2022/2023,data/raw/pjm/2022-2023-base-residual-auction-report.pdf,57968,1
+2023/2024,data/raw/pjm/2023-2024-base-residual-auction-report.pdf,53429,1
+2024/2025,data/raw/pjm/2024-2025-base-residual-auction-report.pdf,42269,1
+2025/2026,data/raw/pjm/2025-2026-base-residual-auction-report.pdf,24694,1
+2026/2027,data/raw/pjm/2026-2027-bra-report.pdf,37972,1

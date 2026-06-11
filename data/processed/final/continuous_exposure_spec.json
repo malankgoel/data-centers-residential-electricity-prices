@@ -1,0 +1,32 @@
+{
+  "beta_pjm_post_pp": 4.130981492701542,
+  "se_pjm_post_pp": 1.7716593992695662,
+  "p_pjm_post": 0.01971638161558192,
+  "beta_triple_per_dc_per_100k_pp": 1.017313649724946,
+  "se_triple_per_dc_per_100k_pp": 0.6031142558328466,
+  "p_triple": 0.09164802741052017,
+  "N": 6377,
+  "implied_effects": [
+    {
+      "utility_name": "Virginia Electric & Power Co",
+      "state": "VA",
+      "dc_per_100k": 9.187983627768352,
+      "implied_effect_pp": 9.347061157978072,
+      "implied_se_pp": 5.541403908265888
+    },
+    {
+      "utility_name": "Commonwealth Edison Co",
+      "state": "IL",
+      "dc_per_100k": 1.574144067718309,
+      "implied_effect_pp": 1.6013982467233854,
+      "implied_se_pp": 0.949388727975618
+    },
+    {
+      "utility_name": "Public Service Elec & Gas Co",
+      "state": "NJ",
+      "dc_per_100k": 2.1352855944482574,
+      "implied_effect_pp": 2.1722551812932576,
+      "implied_se_pp": 1.2878211822862582
+    }
+  ]
+}

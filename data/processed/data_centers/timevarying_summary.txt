@@ -1,0 +1,13 @@
+
+TIME-VARYING ENRICHMENT — HEADLINE RESULTS
+==========================================
+Of 1550 OpenStreetMap data center records:
+  - 519 have VERIFIED opening years
+    (from OSM tags, Wikidata, Wikipedia operator/city pages).
+  - 446 imputed from operator median.
+  - 208 imputed from state median.
+  - 377 imputed from global empirical median.
+
+The state-year panel now carries CUMULATIVE-BY-YEAR data center counts
+rather than a fixed pre-2022 cross-section. This is what enters the
+new time-varying DiD specifications.

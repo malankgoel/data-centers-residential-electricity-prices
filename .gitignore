@@ -1,5 +1,5 @@
-# Data (raw & processed) excluded from the repo
-data/
+# Raw data excluded (large; re-downloadable via code/source_download_scripts/)
+data/raw/
 
 # macOS
 .DS_Store

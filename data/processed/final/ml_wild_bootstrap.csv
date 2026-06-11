@@ -1,0 +1,4 @@
+spec,sample,label,coefficient_name,coefficient,std_error_analytical,p_value_analytical,p_value_bootstrap,n_bootstrap_replications,n_obs,n_clusters
+wild_cluster_bootstrap_CGM2008,monthly_panel_2023_2026,PJM x post (broad uplift),pjm_post,0.03427996564639557,0.015063146925229842,0.023310153178589976,0.01901901901901902,999,17457,471
+wild_cluster_bootstrap_CGM2008,monthly_panel_2023_2026,High-DC x post (outside-PJM component),highdc_post,-0.041339806705623955,0.03484883631446557,0.23611865767683615,0.24824824824824826,999,17457,471
+wild_cluster_bootstrap_CGM2008,monthly_panel_2023_2026,PJM x high-DC x post (triple-DiD),pjm_highdc_post,0.12205769665535725,0.049782211590709675,0.01457586585077908,0.015015015015015015,999,17457,471

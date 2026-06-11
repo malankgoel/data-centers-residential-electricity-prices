@@ -1,0 +1,16 @@
+processed_file,exists,bytes
+data/processed/utility_service_territory/eia861m_monthly_sales_revenue_all_2023_2026.csv,1,7802908
+data/processed/utility_service_territory/eia861m_monthly_sales_revenue_utility_clean_2023_2026.csv,1,5702097
+data/processed/utility_service_territory/eia861m_monthly_service_territory_panel_2023_2026.csv,1,5951227
+data/processed/utility_service_territory/eia861m_annual_sales_revenue_utility_clean_2023_2026.csv,1,616279
+data/processed/utility_service_territory/eia861m_annual_service_territory_panel_2023_2026.csv,1,642129
+data/processed/utility_service_territory/eia861m_q1_service_territory_panel_2023_2026.csv,1,607432
+data/processed/pjm/pjm_bra_clearing_prices_by_lda.csv,1,7626
+data/processed/pjm/pjm_bra_rto_summary.csv,1,874
+data/processed/pjm/pjm_zone_reference.csv,1,3651
+data/processed/pjm/pjm_map_inventory.csv,1,223
+eia861m_monthly_all_rows,1,28256
+eia861m_monthly_clean_rows,1,20392
+eia861m_annual_clean_rows,1,2133
+pjm_bra_price_rows,1,69
+pjm_zone_reference_rows,1,21

@@ -1,0 +1,47 @@
+utility_number,state,utility_name,pjm_zone,in_pjm,mapping_confidence,notes
+4110,IL,Commonwealth Edison Co,COMED,1,high,ComEd is the COMED zone
+19876,VA,Virginia Electric & Power Co,DOM,1,high,Dominion VA is the entire DOM zone
+19876,NC,Virginia Electric & Power Co,DOM,1,high,Dominion NC is part of DOM zone in PJM
+15477,NJ,Public Service Elec & Gas Co,PSEG,1,high,PSE&G is the PSEG zone
+14940,PA,PECO Energy Co,PECO,1,high,PECO zone
+1167,MD,Baltimore Gas & Electric Co,BGE,1,high,BGE zone
+9726,NJ,Jersey Central Power & Lt Co,JCPL,1,high,JCPL zone
+14715,PA,PPL Electric Utilities Corp,PPL,1,high,PPL zone
+14006,OH,Ohio Power Co,AEP,1,high,AEP Ohio operating company in AEP PJM zone
+15270,MD,Potomac Electric Power Co,PEPCO,1,high,Pepco MD in PEPCO zone
+15270,DC,Potomac Electric Power Co,PEPCO,1,high,Pepco DC in PEPCO zone
+963,NJ,Atlantic City Electric Co,AE,1,high,ACE in AE zone
+733,VA,Appalachian Power Co,AEP,1,high,APCo in AEP zone (VA portion)
+733,WV,Appalachian Power Co,AEP,1,high,APCo in AEP zone (WV portion)
+5487,PA,Duquesne Light Co,DLCO,1,high,Duquesne in DLCO zone
+3542,OH,Duke Energy Ohio Inc,DEOK,1,high,Duke Energy Ohio in DEOK zone
+13998,OH,Ohio Edison Co,ATSI,1,high,FirstEnergy Ohio Edison in ATSI zone
+15263,MD,The Potomac Edison Company,AP,1,high,Potomac Edison MD in AP/Allegheny Power zone
+15263,WV,The Potomac Edison Company,AP,1,high,Potomac Edison WV in AP/Allegheny Power zone
+12796,WV,Monongahela Power Co,AP,1,high,Mon Power in AP/Allegheny Power zone
+5027,MD,Delmarva Power,DP&L,1,high,Delmarva MD in DP&L zone
+5027,DE,Delmarva Power,DP&L,1,high,Delmarva DE in DP&L zone
+4922,OH,Dayton Power & Light Co,DAY,1,high,Dayton P&L in DAY zone
+3755,OH,Cleveland Electric Illum Co,ATSI,1,high,Cleveland Electric (FirstEnergy) in ATSI-CLEVELAND
+18997,OH,The Toledo Edison Co,ATSI,1,high,Toledo Edison (FirstEnergy) in ATSI zone
+66101,PA,FirstEnergy Pennsylvania Electric Co,METED,1,medium,Consolidated entity covering Met-Ed/Penelec/Penn Power - dominantly METED
+40228,VA,Rappahannock Electric Coop,DOM,1,high,Rappahannock distribution coop served by Dominion transmission DOM zone
+13640,VA,Northern Virginia Elec Coop,DOM,1,high,NOVEC inside DOM zone in Northern Virginia
+17066,VA,Shenandoah Valley Elec Coop,DOM,1,high,SVEC inside DOM zone
+17637,MD,Southern Maryland Elec Coop Inc,PEPCO,1,medium,SMECO distribution coop in PEPCO zone footprint
+19446,KY,Duke Energy Kentucky,DEOK,1,high,Duke Energy KY in DEOK zone
+22053,KY,Kentucky Power Co,AEP,1,high,Kentucky Power (AEP) in AEP zone
+9324,IN,Indiana Michigan Power Co,AEP,1,high,I&M in AEP zone
+9324,MI,Indiana Michigan Power Co,AEP,1,high,I&M Michigan portion in AEP zone
+56697,IL,Ameren Illinois Company,,0,high,Ameren Illinois is in MISO not PJM
+12341,IL,MidAmerican Energy Co,,0,high,MidAmerican is in MISO not PJM
+5416,NC,"Duke Energy Carolinas, LLC",,0,high,Duke Carolinas is in SERC not PJM
+3046,NC,Duke Energy Progress - (NC),,0,high,Duke Progress is in SERC not PJM
+5109,MI,DTE Electric Company,,0,high,DTE is in MISO not PJM
+4254,MI,Consumers Energy Co - (MI),,0,high,Consumers Energy is in MISO not PJM
+13756,IN,Northern Indiana Pub Serv Co,,0,high,NIPSCO is in MISO not PJM
+9273,IN,AES Indiana,,0,high,AES Indiana is in MISO not PJM
+15470,"IN","Duke Energy Indiana, LLC",,0,high,Duke Energy Indiana is in MISO not PJM
+17633,IN,Southern Indiana Gas & Elec Co,,0,high,Vectren/SIGECO is in MISO not PJM
+10171,KY,Kentucky Utilities Co,,0,high,KU is in TVA/SERC not PJM
+11249,KY,Louisville Gas & Electric Co,,0,high,LG&E is in TVA/SERC not PJM
