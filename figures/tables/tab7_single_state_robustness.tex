@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Robustness restricted to single state utility service areas. The sample is utility states whose HIFLD service territory polygon does not cross state lines. It contains 48 utility states, 2 in PJM, and 0 high DC PJM units. Unit and month fixed effects are included. SEs are clustered by utility state. The triple DID interaction is not identified on this subsample because no high DC utility has a single state service territory polygon.}
+\label{tab:single_state}
+\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{l c c c r}
+\toprule
+Treatment & Estimate (pp) & SE (pp) & $p$ value & $N$ \\
+\midrule
+PJM \(\times\) post (broad uplift) & +5.72 & 4.82 & $p=0.235$ & 1,872 \\
+High DC \(\times\) post outside PJM & $-$1.21 & 0.61 & $p=0.048$ & 1,872 \\
+PJM \(\times\) high DC \(\times\) post triple DID & \multicolumn{3}{c}{Not identified in this subsample} & 1,872 \\
+\bottomrule
+\end{tabular}
+\end{table}

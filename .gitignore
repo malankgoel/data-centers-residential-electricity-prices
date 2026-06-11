@@ -1,0 +1,12 @@
+# Data (raw & processed) excluded from the repo
+data/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mplconfig/

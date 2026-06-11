@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\caption{Main regression results. Outcome is log residential price. Standard errors are clustered by utility state. Coefficients are reported in percentage points with SE in parentheses. All monthly specifications include utility state and month fixed effects. The historical specification uses utility state and state by year fixed effects.}
+\label{tab:mainregs}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{6.1cm} >{\raggedright\arraybackslash}p{4.2cm} c c c}
+\toprule
+Specification & Sample & Estimate & $p$ value & $N$ \\
+\midrule
+Historical annual: DCs per 100k cust. & 2010 to 2024 utility state & $-$0.02\,(0.02) & $p=0.331$ & 9,136 \\
+Monthly pass through: log capacity & PJM utilities 2023 to 2026 & +1.16\,(3.92) & $p=0.768$ & 358 \\
+Within PJM: High DC \(\times\) post & PJM utilities 2023 to 2026 & +8.05\,(3.66) & $p=0.028$ & 1,275 \\
+Within PJM: Any DC \(\times\) post & PJM utilities 2023 to 2026 & +1.69\,(2.88) & $p=0.558$ & 1,275 \\
+Broad uplift: PJM \(\times\) post & Full panel 2023 to 2026 & +3.22\,(1.52) & $p=0.034$ & 17,457 \\
+Triple DID: PJM \(\times\) high DC \(\times\) post & Full panel 2023 to 2026 & +12.41\,(5.01) & $p=0.013$ & 17,457 \\
+\bottomrule
+\end{tabular}
+\end{table}

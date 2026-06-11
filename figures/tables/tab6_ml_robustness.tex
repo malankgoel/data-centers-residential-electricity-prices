@@ -1,0 +1,31 @@
+\begin{table}[H]
+\centering
+\caption{Machine learning robustness specifications. Panel A reports Lasso post selection on the historical 2010 to 2024 utility state annual panel. Panel B reports a wild cluster bootstrap of the triple difference coefficients with $999$ Rademacher replications at the utility state cluster. Bootstrap $p$ values are reported alongside analytical cluster robust $p$ values.}
+\label{tab:ml_robustness}
+\small
+
+\textit{Panel A: Lasso post selection on historical 2010 to 2024 panel}
+\vspace{2pt}
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{l c c c r c}
+\toprule
+Specification & Estimate (pp) & SE (pp) & $p$ & $N$ & Selected / Cand. \\
+\midrule
+Double selection Lasso & +0.010 & 0.014 & $p=0.487$ & 9,136 & 7 / 7 \\
+\bottomrule
+\end{tabular}
+
+\vspace{10pt}
+\textit{Panel B: Wild cluster bootstrap on triple difference with 999 Rademacher replications}
+\vspace{2pt}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l c c c c r}
+\toprule
+Coefficient & Estimate (pp) & SE (pp) & Analytical $p$ & Bootstrap $p$ & $N$ \\
+\midrule
+PJM $\times$ post (broad uplift) & +3.43 & 1.51 & 0.023 & 0.019 & 17,457 \\
+High DC $\times$ post outside PJM & $-$4.13 & 3.48 & 0.236 & 0.248 & 17,457 \\
+PJM $\times$ high DC $\times$ post triple DID & +12.21 & 4.98 & 0.015 & 0.015 & 17,457 \\
+\bottomrule
+\end{tabular}
+\end{table}

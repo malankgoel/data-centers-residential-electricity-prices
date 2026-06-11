@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Triple difference robustness to the high DC threshold and to continuous exposure. Outcome is log residential price. Specification follows Equation~\ref{eq:tripledid} with utility state and month fixed effects. SEs are clustered by utility state. The triple coefficient is either PJM~$\times$~HighDC~$\times$~post or PJM~$\times$~DC per 100k~$\times$~post. Sample has $N=6,377$ utility state month observations.}
+\label{tab:exposure_robustness}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{5.2cm} c c c c c}
+\toprule
+Specification & High DC PJM units & Triple coef. & SE & $p$ value & PJM$\times$post \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel A: Binary high DC threshold sensitivity}} \\
+\midrule
+Threshold $\geq 5$ DCs & 6 & +7.65\% & 4.18 & 0.067 & +3.49\% \\
+Threshold $\geq 10$ DCs (headline) & 3 & +11.97\% & 5.08 & 0.018 & +3.66\% \\
+Threshold $\geq 20$ DCs & 3 & +11.84\% & 6.31 & 0.061 & +3.81\% \\
+Threshold $\geq 50$ DCs & 1 & +7.35\% & 1.72 & $<$0.001 & +4.71\% \\
+\midrule
+\multicolumn{6}{l}{\textit{Panel B: Continuous exposure (DCs per 100k residential customers)}} \\
+\midrule
+Per additional DC per 100k cust. &  & +1.02 pp & 0.60 & 0.092 & +4.13\% \\
+\quad Implied: Dominion VA ($\approx$9.2 DC/100k) &  & +9.35 pp & 5.54 &  &  \\
+\quad Implied: ComEd IL ($\approx$1.6 DC/100k) &  & +1.60 pp & 0.95 &  &  \\
+\quad Implied: PSE\&G NJ ($\approx$2.1 DC/100k) &  & +2.17 pp & 1.29 &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}

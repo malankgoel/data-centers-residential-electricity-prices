@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Triple difference design with weather controls. Outcome is log residential price. Sample is utility states with NOAA HDD and CDD coverage. Unit and month fixed effects. SEs are clustered by utility state. Coefficients are in percentage points. HDD and CDD are reported per 1{,}000 degree days.}
+\label{tab:robustness}
+\begin{tabular}{p{7cm} c c c c}
+\toprule
+Treatment & Estimate & SE & $p$ value & $N$ \\
+\midrule
+PJM \(\times\) post shock & +1.33\% & 2.07 & $p=0.521$ & 4,215 \\
+High DC \(\times\) post shock & $-$2.45\% & 1.79 & $p=0.172$ & 4,215 \\
+PJM \(\times\) high DC \(\times\) post shock & +10.80\% & 3.80 & $p=0.005$ & 4,215 \\
+HDD (thousands) & +29.00\% & 14.34 & $p=0.043$ & 4,215 \\
+CDD (thousands) & $-$38.64\% & 22.72 & $p=0.089$ & 4,215 \\
+\bottomrule
+\end{tabular}
+\end{table}
